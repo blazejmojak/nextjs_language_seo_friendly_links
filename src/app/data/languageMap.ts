@@ -6,7 +6,6 @@ export const defaultLanguage = "en"
 export const keyMapper = {
   kontakt: 'contact',
   contact: 'contact',
-  contacten: 'contact',
   services: 'services',
   uslugi: 'services',
   service: 'services',
@@ -23,7 +22,7 @@ export const languageMap: { [key: string]: { [key: string]: string } } = {
   contact: {
     en: 'contact',
     pl: 'kontakt',
-    de: 'contacten',
+    de: 'kontakt',
   },
   services: {
     en: 'services',
