@@ -15,9 +15,6 @@ const Navbar: React.FC<NavbarProps> = ({ language }) => {
             </div>
             <ul className="navbar-menu">
                 <li className="navbar-item">
-                    <Link href="/about">About</Link>
-                </li>
-                <li className="navbar-item">
                 <Link href={`/${language}/${languageMap.services[language]}/`}>Services</Link>
                 </li>
                 <li className="navbar-item mb-8">
